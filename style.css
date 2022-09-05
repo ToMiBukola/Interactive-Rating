@@ -1,0 +1,71 @@
+body {
+    margin: 0;
+    background-color: black;
+    color: white;
+    font-family: 'Overpass', sans-serif;
+}
+section {
+    width: 21%;
+    margin: auto;
+    margin-top: 10rem;
+    background-color: hsl(213, 19%, 18%);
+    padding: 15px;
+    border-radius: 15px;
+}
+.num {
+    display: flex;
+    justify-content: space-between;
+}
+a {
+    text-decoration: none;
+}
+p {
+    color: hsl(216, 12%, 54%);
+}
+button {
+    width: 100%;
+    margin-top: 15px;
+    padding: 10px;
+    border-radius: 25px;
+    background: hsl(25, 97%, 53%);
+    color: hsl(0, 0%, 100%);
+    border: hsl(25, 97%, 53%);
+}
+button:hover {
+    background: white;
+    color: hsl(25, 97%, 53%);
+}
+.numbers {
+    background: rgb(149 158 172 / 10%);
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 54px;
+}
+.numbers:hover {
+    background: hsl(25, 97%, 53%);
+    color: white;
+}
+.image {
+    background: rgb(149 158 172 / 10%);
+    padding: 10px;
+    border-radius: 25px;
+}
+.thanksection {
+    width: 21%;
+    margin: auto;
+    margin-top: 10rem;
+    background-color: hsl(213, 19%, 18%);
+    padding: 15px;
+    border-radius: 15px;
+    text-align: center;
+}
+.select {
+    background-color: rgb(149 158 172 / 10%);
+    border-radius: 10px;
+    width: 65%;
+    margin: auto;
+    margin-top: 15px;
+}
