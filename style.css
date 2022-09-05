@@ -71,29 +71,29 @@ button:hover {
 }
 
 @media (max-width:1070px) {
-    section {
-        width: 25%;
-        margin-top: 7rem;
+    section, .thanksection {
+        width: 30%;
+        margin-top: 8rem;
     }
 }
 
 @media (max-width:850px) {
-    section {
-        width: 30%;
-        margin-top: 6rem;
+    section, .thanksection {
+        width: 38%;
+        margin-top: 8rem;
     }
 }
 
 @media (max-width:730px) {
-    section {
-        width: 38%;
-        margin-top: 5rem;
+    section, .thanksection {
+        width: 45%;
+        margin-top: 8rem;
     }
 }
 
 @media (max-width:550px) {
-    section {
-        width: 50%;
-        margin-top: 4rem;
+    section, .thanksection {
+        width: 60%;
+        margin-top: 8rem;
     }
 }
